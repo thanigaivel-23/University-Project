@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/css/log.css">
+  </head>
+  <body>
+    {{> header}}
+     
+    <section class="header">
+        <div class="container flex">
+            <div class="facebook-page flex">
+              <div class="text">
+                <h1>University</h1>
+                <p>Connect with friends and the world </p>
+                <p> around you on university</p>
+              </div>
+              <form action="/auth/log" method="post">
+                {{#if msg}}
+                   <p class={{type}}>{{msg}}</p>
+                {{/if}}
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <div class="link">
+                  <button type="submit" class="login">Login</button>
+                  <a href="/forgetPass" class="forgot">Forgot password?</a>
+                </div>
+                <hr>
+                <div class="button">
+                  <a href="/register">Create new account</a>
+                </div>
+              </form>
+            </div>
+          </div>
+            
+    </section>
+    
+    
+  </body>
+</html>

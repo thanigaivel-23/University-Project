@@ -1,0 +1,244 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: #777;
+}
+
+.menu{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 5px 5px 8px 2px rgba(0, 0 ,0, 0.4);
+    
+    
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+
+
+}
+
+.name{ 
+    color: rgb(194, 158, 67);
+
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 800;
+    transform: translateX(120px);
+    background-color: white;
+
+    
+}
+
+.namestyle{
+    text-decoration: none;
+}
+span{
+    background-color: white;
+
+    
+}
+.navlinks{
+    background-color: white;
+
+}
+
+
+
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+
+
+
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color:rgb(51, 159, 105);
+    padding: 12px;
+    font-size: 17px;   
+    font-weight:500;
+
+    
+}
+
+.navlinks ul li a:hover{
+    color: rgb(194, 158, 67);
+
+    background-color: rgba(4, 9, 30, 0.071);
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.header{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(/img/contact.jpg);
+    background-position: top;
+    padding-top: 20px;
+    background-size: cover;
+
+}
+
+.textbox{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.textboxh1{
+    font-size: 45px;
+    padding-bottom: 40px;
+}
+
+.one{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+
+
+}
+.two{
+    flex-basis: 48%;
+    padding: 30px 2px;
+
+}
+.two img{
+    width: 100%;
+
+
+}
+
+/*------contact-------------------------------*/
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe{
+    width: 100%;
+    
+}
+.contact{
+    width: 80%;
+    margin: auto;
+    
+}
+.row{
+    display: flex;
+}
+
+.con-col{
+
+    flex-basis: 48%;
+    margin-bottom: 30px;
+
+}
+.con-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.con-col div .fa{
+    font-size: 30px;
+    color: rgba(118,170,61,255);
+    margin-right: 30px
+}
+
+.con-col div p{
+    padding: 0;
+}
+
+.con-col div h5{
+
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.con-col input, .con-col textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+    
+.button{
+
+    display: inline-block;
+    text-decoration: none;
+    color:rgba(118,170,61,255);
+    border: 1px solid rgba(118,170,61,255);
+    background: transparent;
+    padding: 12px 34px;
+    position: relative;
+    font-size: 13px;
+
+}
+
+
+.button:hover{
+    color: white;
+    border: 1px solid rgba(118,170,61,255);
+    background: rgba(118,170,61,255);
+    transition: 1s;}
+
+
+/*
+
+    color: rgba(118,170,61,255);
+color:rgba(58,147,189,255);
+*/
+
+
+
+
+
+/*---------footer----------*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+.icons .fab{
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0 ;
+
+}
+.footer P{
+    margin: 0px 100px;
+
+}

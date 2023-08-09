@@ -1,0 +1,27 @@
+ <div class="menu">
+
+        <a href="/about"> <img class="logo" src="/img/v.png" alt=""></a>
+    
+        
+    <a class="namestyle" href="/newuni">
+        <div class="name"><span style="color:rgb(51, 159, 105)"> Vel's</span> University</div>
+    </a>
+        <div class="navlinks">
+            <ul>
+                {{#if user}}
+                <li><a href="/user">ACCOUNT</a></li>
+                {{!-- <li><a href="/about">ABOUT</a></li> --}}
+                <li><a href="/admission">ADMISSION</a></li>
+                <li><a href="/contact">CONTACT</a></li>
+                <li><a href="/auth/logout">LOGOUT</a></li>
+                
+                {{else}}
+                
+                <li><a href="/log">LOGIN</a></li>
+                <li><a href="/register">REGISTER</a></li>
+                {{/if}}
+
+            </ul>
+    
+        </div>
+    </div>
